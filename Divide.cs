@@ -60,7 +60,7 @@
             }
 
             current_status = 0.5f;
-            //Exception part    Error
+            
         }
 
         private double divide(double a, double b)
