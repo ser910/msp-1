@@ -23,7 +23,6 @@ class Plus : IOperation
         
         public int opp_id {
             get { return my_opp_id; }
-            set { throw new Exception(); }
         }
 public float status{ get{ return current_status;}; set; }
 
