@@ -10,4 +10,14 @@ class Max : IOperation
             set { throw new Exception(); }
         }
 public float status{ get{ return 0;}; set; }
+private void data_validation(){
+
+
+}
+
+
+
+	private double max(double a, double b){
+		return 0;
+	}
 }
