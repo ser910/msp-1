@@ -16,7 +16,10 @@ class Plus : IOperation
 		retrun add(variable_1 ,variable_2);
 
             }
-            result_validation_set()}
+            set
+            {
+            	result_validation_set()
+            }
         }
         public double variable_1 { get; set; }
         public double variable_2 { get; set; }
