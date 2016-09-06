@@ -8,7 +8,7 @@ class Plus : IOperation
             my_opp_id = 1; //version number
 	    current_status=0; //begin
         }
---------------------------------------------------------------------
+//--------------------------------------------------------------------
         public double result {
             get
             {
@@ -27,7 +27,7 @@ class Plus : IOperation
         }
 public float status{ get{ return current_status;}; set; }
 
-----------------------------------------------------------------------
+//----------------------------------------------------------------------
 
 private void result_validation_set(){
 		throw new Exception("FIG VAM!!!");
@@ -44,11 +44,11 @@ private void data_validation(){
 		console.writeline(“Warning!. Variable 2 was emty. By default it was taken zero”);
 		variable_2=0;
 
+	}
 }
 
 
-
-	private double add(double a, double b){
+private double add(double a, double b){
 			current_status=1; //end
 
 			return a+b;
